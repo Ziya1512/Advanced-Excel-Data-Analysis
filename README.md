@@ -37,6 +37,13 @@ Examines yearly sales and profit growth, regional contributions, sales distribut
 
 ![Sales Trends Dashboard](Sales_Trend_Analysis.png)
 
+### 5. Final Recommendations & Methodology
+
+Presents actionable business recommendations based on the analysis, along with the tools, technologies, analytical techniques and workflow used throughout the project.
+
+![Final Recommendations](Final_Recommendations.png)
+
+
 ## 3. Project Objectives
 
 - Analyze customer purchasing behaviour and identify high-value customers.
