@@ -29,7 +29,7 @@ Analyzes customer purchasing behaviour, customer profitability, order frequency,
 
 Explores product performance, category profitability, sub-category trends, top-selling products and loss-making products.
 
-![Product and Profitability Dashboard](Product_and_Profitibility_Analysis.png)
+![Product and Profitability Dashboard](Product_and_Profitability_Analysis.png)
 
 ### 4. Sales Trends Analysis Dashboard
 
