@@ -235,7 +235,7 @@ It provides an analytical view of customer behaviour, sales performance, product
 
 **Project Category:** Data Analytics | Business Intelligence
 
-**Tools Used:** Microsoft Excel | Power Query
+**Tools Used:** Microsoft Excel | Power Query | Power Pivot
 
 **Analysis Period:** 2014–2017
 
