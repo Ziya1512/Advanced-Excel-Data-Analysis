@@ -1,17 +1,43 @@
-# Advanced-Excel-Data-Analysis
-Excel-based Superstore Sales Analysis using Power Query, PivotTables, PivotCharts and interactive dashboards to explore business performance and sales trends.
-
 # Superstore Business Analysis | Microsoft Excel
 
 ## 1. Project Overview
 
-This project is an end-to-end business analysis of Superstore sales data using Microsoft Excel. It focuses on understanding customer behaviour, evaluating sales performance, identifying profitable products and categories, and analyzing business growth trends.
+This project focuses on analyzing Superstore sales data using Microsoft Excel to understand customer behaviour, evaluate sales performance, identify profitable products and categories, and analyze business growth trends.
 
-The project uses Power Query for data preparation, PivotTables for data analysis, and PivotCharts to build four interactive dashboards.
+The project uses Power Query for data preparation, PivotTables for data analysis, and PivotCharts to develop four interactive dashboards covering different aspects of business performance.
 
-Each dashboard focuses on a different business perspective, supported by key performance indicators (KPIs), visualizations, filters and an insights section to communicate important findings.
+Each dashboard includes key performance indicators (KPIs), visualizations, filters and an insights section to present meaningful findings in a structured and visually accessible format.
 
-## 2. Project Objectives
+## 2. Dashboard Screenshots
+
+The project features four dashboards, each designed to provide a different perspective on Superstore business performance.
+
+
+### 1. Superstore Overview Dashboard
+
+Provides an overall business overview covering revenue, regional performance, top states, best-selling products and sales trends.
+
+![Superstore Overview Dashboard](Overall_Analysis.png)
+
+### 2. Customer Analysis Dashboard
+
+Analyzes customer purchasing behaviour, customer profitability, order frequency, sales by segment and geographical performance.
+
+![Customer Analysis Dashboard](Customer_Analysis.png)
+
+### 3. Product & Profitability Analysis Dashboard
+
+Explores product performance, category profitability, sub-category trends, top-selling products and loss-making products.
+
+![Product and Profitability Dashboard](Product_and_Profitibility_Analysis.png)
+
+### 4. Sales Trends Analysis Dashboard
+
+Examines yearly sales and profit growth, regional contributions, sales distribution and historical business performance.
+
+![Sales Trends Dashboard](Sales_Trend_Analysis.png)
+
+## 3. Project Objectives
 
 - Analyze customer purchasing behaviour and identify high-value customers.
 - Evaluate overall sales, revenue and order performance.
@@ -19,22 +45,23 @@ Each dashboard focuses on a different business perspective, supported by key per
 - Analyze profitability across product categories and sub-categories.
 - Compare sales and profit performance across geographical regions.
 - Identify yearly and monthly sales trends.
-- Present business insights through interactive Excel dashboards.
+- Develop interactive dashboards to communicate business insights.
+- Transform raw business data into meaningful information for decision-making.
 
-## 3. Tools & Technologies
+## 4. Tools & Technologies
 
 | Tool / Feature | Application |
 |---|---|
 | Microsoft Excel | Data analysis and dashboard development |
 | Power Query | Data importing, cleaning and transformation |
-| PivotTables | Data summarization and analytical calculations |
-| PivotCharts | Visual representation of business metrics |
-| Excel Slicers | Interactive filtering and dashboard exploration |
-| Timeline | Date-based analysis and filtering |
-| Excel KPIs | Monitoring key business performance indicators |
+| PivotTables | Data summarization and analysis |
+| PivotCharts | Visual representation of analytical findings |
+| Excel Slicers | Interactive filtering and data exploration |
+| Timeline | Date-based filtering and analysis |
+| Excel Formulas & Functions | Calculations and KPI reporting |
 | Dashboard Design | Business intelligence and data storytelling |
 
-## 4. Project Workflow
+## 5. Project Workflow
 
 ### Step 1: Data Preparation
 - Imported and prepared the Superstore dataset.
@@ -42,24 +69,24 @@ Each dashboard focuses on a different business perspective, supported by key per
 - Organized the data for further analysis.
 
 ### Step 2: Data Analysis
-- Created PivotTables to summarize business data.
+- Created PivotTables to summarize and analyze business data.
 - Analyzed customer, sales, product and profitability metrics.
 - Identified important business performance indicators.
 
 ### Step 3: Dashboard Development
 - Developed four separate dashboards, each focusing on a different analytical area.
-- Used PivotCharts to visualize the summarized data.
+- Used PivotCharts to visualize summarized data.
 - Incorporated KPIs, slicers and timelines for interactive exploration.
 - Added dedicated insights sections to highlight important findings.
 
-### Step 4: Data Visualization & Insights
+### Step 4: Data Visualization
 - Presented business metrics through charts and visual summaries.
-- Compared performance across different dimensions.
-- Highlighted important trends, customer patterns and profitability observations.
+- Compared performance across different business dimensions.
+- Highlighted customer patterns, product performance, profitability and sales trends.
 
-## 5. Dashboard Breakdown
+## 6. Dashboard Breakdown
 
-The project consists of four interactive dashboards.
+The project consists of four dashboards covering different dimensions of Superstore business performance.
 
 ### Dashboard 1: Customer Analysis
 
@@ -88,7 +115,7 @@ The project consists of four interactive dashboards.
 
 ### Dashboard 2: Superstore Overview
 
-**Objective:** Provide an overall view of Superstore business performance, revenue distribution and major contributors to sales.
+**Objective:** Provide an overall view of business performance, revenue distribution and major contributors to sales.
 
 **Key Metrics:**
 - Total Revenue: Approximately $2.3 Million
@@ -114,7 +141,7 @@ The project consists of four interactive dashboards.
 
 ### Dashboard 3: Product & Profitability Analysis
 
-**Objective:** Evaluate product performance and identify the most profitable and least profitable product categories and sub-categories.
+**Objective:** Evaluate product performance and identify the most profitable and least profitable products, categories and sub-categories.
 
 **Key Metrics:**
 - Highest Sales Product: GBC DocuBind P400 Electric Binding System
@@ -146,16 +173,15 @@ The project consists of four interactive dashboards.
 - Total Sales: $2,297,200.90
 - Total Orders: 9,994
 - Average Order Value: $229.90
-- Reporting Period: 2014–2017
+- Analysis Period: 2014–2017
 
 **Analysis Includes:**
 - Sales Growth by Year
 - Profit Growth by Year
 - Sales by Year
 - Sales Growth Percentage by Year
-- Sales Percentage by Region
+- Sales Distribution by Region
 - Regional Sales and Profitability Comparison
-- Regional Performance Summary
 
 **Key Insights:**
 - 2016 recorded the highest year-over-year sales growth.
@@ -163,7 +189,7 @@ The project consists of four interactive dashboards.
 - West leads in sales and profitability.
 - Central requires further profitability investigation.
 
-## 6. PivotTable Organization
+## 7. PivotTable Organization
 
 The workbook uses two separate PivotTable sheets to support all four dashboards.
 
@@ -171,17 +197,19 @@ The workbook uses two separate PivotTable sheets to support all four dashboards.
 - Contains the supporting PivotTables for the Customer Analysis dashboard.
 
 **PivotTable Sheet 2 – Supporting Dashboard Analysis**
-- Contains the supporting PivotTables for the Overview, Product & Profitability, and Sales Trends dashboards.
+- Contains the supporting PivotTables for the Superstore Overview, Product & Profitability, and Sales Trends dashboards.
 
 **Design Decision:**
 
-The PivotTable analysis was divided into two sheets to avoid overcrowding and maintain a more organized workbook structure. The first sheet supports the customer dashboard, while the second consolidates the analytical data required for the remaining three dashboards.
+The PivotTable analysis was divided into two sheets to avoid overcrowding and maintain an organized workbook structure.
 
-This approach improves workbook organization and makes the underlying analysis easier to maintain.
+The first sheet is dedicated to the Customer Analysis dashboard, while the second consolidates the analytical data required for the remaining three dashboards.
 
-## 7. Key Skills Demonstrated
+This approach improves workbook organization and makes the supporting analysis easier to maintain.
 
-- Data Cleaning and Transformation
+## 8. Key Skills Demonstrated
+
+- Data Cleaning and Preparation
 - Power Query
 - Exploratory Data Analysis (EDA)
 - Data Summarization
@@ -191,23 +219,24 @@ This approach improves workbook organization and makes the underlying analysis e
 - Sales and Revenue Analysis
 - Product Profitability Analysis
 - Trend Analysis
-- KPI Development
+- KPI Reporting
 - Interactive Dashboard Development
 - Data Visualization
 - Business Intelligence
 - Data Storytelling
 
-## 8. Key Project Highlights
+## 9. Key Project Highlights
 
 - Developed four dashboards covering different business analytical dimensions.
-- Analyzed customer purchasing patterns and customer profitability.
-- Evaluated product and sub-category profitability.
+- Analyzed customer purchasing patterns and profitability.
+- Evaluated product and sub-category performance.
 - Compared sales and profitability across geographical regions.
 - Analyzed historical sales and profit trends from 2014 to 2017.
 - Used interactive filters and timelines for dynamic data exploration.
 - Designed dedicated insights panels to communicate analytical findings.
+- Organized supporting PivotTables across two separate sheets for better maintainability.
 
-## 9. Repository Structure
+## 10. Repository Structure
 
 ```text
 Superstore-Business-Analysis/
@@ -215,15 +244,15 @@ Superstore-Business-Analysis/
 ├── Superstore_Analysis.xlsx
 │
 ├── Screenshots/
-│   ├── CustomerAnalysis_SuperstoreProject.png
 │   ├── Overview_SuperstoreProject.png
+│   ├── CustomerAnalysis_SuperstoreProject.png
 │   ├── ProductAnalysis_SuperstoreProject.png
 │   └── SalesAnalysis_SuperstoreProject.png
 │
 └── README.md
 ```
 
-## 10. Project Conclusion
+## 11. Project Conclusion
 
 This project demonstrates the practical application of Microsoft Excel and Power Query in business data analysis.
 
@@ -239,6 +268,8 @@ It provides an analytical view of customer behaviour, sales performance, product
 
 **Analysis Period:** 2014–2017
 
-**Dashboards:** 4
+**Total Dashboards:** 4
 
-**Author:** [Your Name]
+**Supporting PivotTable Sheets:** 2
+
+**Author:** Ziya
