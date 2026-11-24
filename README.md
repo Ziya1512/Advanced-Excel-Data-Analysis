@@ -4,10 +4,6 @@
 
 This project focuses on analyzing Superstore sales data using Microsoft Excel to understand customer behaviour, evaluate sales performance, identify profitable products and categories, and analyze business growth trends.
 
-The project uses Power Query for data preparation, PivotTables for data analysis, and PivotCharts to develop four interactive dashboards covering different aspects of business performance.
-
-Each dashboard includes key performance indicators (KPIs), visualizations, filters and an insights section to present meaningful findings in a structured and visually accessible format.
-
 ## 2. Dashboard Screenshots
 
 The project features four dashboards, each designed to provide a different perspective on Superstore business performance.
