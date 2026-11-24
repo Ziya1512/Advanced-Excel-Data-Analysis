@@ -6,9 +6,6 @@ This project focuses on analyzing Superstore sales data using Microsoft Excel to
 
 ## 2. Dashboard Screenshots
 
-The project features four dashboards, each designed to provide a different perspective on Superstore business performance.
-
-
 ### 1. Superstore Overview Dashboard
 
 Provides an overall business overview covering revenue, regional performance, top states, best-selling products and sales trends.
